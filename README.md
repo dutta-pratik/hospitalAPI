@@ -55,31 +55,35 @@ This API helps to performs the following function
 <br>
 Following is the description of all the function mentioned above.<br>
 <ul>
-<li id="register">
+<li>
+ <p id="#register">
 Register - Doctor
 <br>
 This API helps to register the doctor in the app.
-<li id="login">
+<li>
+ <p id="#login">
 Login - Doctor
 <br>
 This function helps to login the Doctor in the app.
 If the user successfull login it generates a token and it'll be valid for almost 3 minutes and it gets expired after that.
-<li id="p">
+<li>
+ <p  id="#p">
 Create Patient
 <br>
 This function helps to create a patient in database.<br>
 This function is allowed only  if the token is not expired.
-<li id="q">
+<li>
+ <p  id="#q">
 Create Report
 <br>
 This function helps to create report of a patient in database.<br>
 This function is allowed only  if the token is not expired.
-<li id="r">
-Fetch Report
+<li>
+<p id="#r">Fetch Report
 <br>
 This function helps to fetch all reports of patient whose id is mentioned in params from the database.<br>
-<li id="s">
-Fetch Report By Status
+<li>
+<p id="#s"> Fetch Report By Status
 <br>
 This function helps to fetch all reports of all patients as per the status mentioned in the params from the database.<br>
 </ul>
