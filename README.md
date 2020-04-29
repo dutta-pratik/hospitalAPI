@@ -1,5 +1,5 @@
 # hospitalAPI
-# Notepad
+
 
 It is an API for Hospital which helps to perform various functionality which are mentioned below.<br>
 
